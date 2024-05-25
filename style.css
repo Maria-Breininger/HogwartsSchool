@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto Slab;
+    margin: auto;
+    padding: 20px;
+}
+
+.header1 {
+    font-family: Sedan SC;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 30px 0px;
+    font-size: x-large;
+}
+
+.header2 {
+    font-family: Jost;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 30px 0px;
+    font-size: x-large;
+}
+
+.fa-fort-awesome,
+.fa-book-bookmark,
+.fa-book-open,
+.fa-receipt,
+.fa-bookmark {
+    padding: 10px;
+    color: #729b5b;
+}
+
+.logo1 {
+    padding: 10px;
+}
+
+.logo2 {
+    padding: 5px 5px 0px 8px;
+}
+
+.qwestions {
+    display: flex;
+}
+
+.hogwarts {
+    justify-content: center;
+    width: 100%;
+}
+
+.ucheba {
+    padding: 0px 0px 30px 35px;
+}
+
+.ucheba_bottom {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #729b5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 300;
+    transition: all 0.5s ease;
+    border: #ffffff;
+}
+
+.ucheba_bottom:hover {
+    transform: scale(1.5) rotate(-15deg);
+    background-color: #ffffff;
+    border: #729b5b solid;
+    color: #729b5b;
+    font-weight: bolder;
+}
+
+.reg_bottom {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #729b5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 300;
+    transition: all 0.5s ease;
+    border: #ffffff;
+    font-size: larger;
+}
+
+.reg_bottom:hover {
+    transform: scale(1.5) rotate(-15deg);
+    background-color: #ffffff;
+    border: #729b5b solid;
+    color: #729b5b;
+    font-weight: bolder;
+}
+
+.container {
+    padding: 0px 0px 0px 50px;
+}
+
+.ucheba_text {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.qwestion {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.fakultet {
+    width: 40%;
+    margin: 20px;
+}
+
+.psevdospisok {
+    margin: 10px 0px 0px 20px;
+}
+
+.gerb_hogwarts {
+    width: 40%;
+    margin: 20px;
+}
+
+.container_for_img {
+    display: flex;
+}
+
+.pole {
+    border: #729b5b solid;
+    color: #729b5b;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.regmain {
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.vnutrihogwartsa {
+    margin-top: 50px;
+}
+
+img {
+    border-radius: 15px;
+    animation: imgpicture 2s infinite;
+}
+
+@keyframes imgpicture {
+    0% {transform: scale(0.9);}
+    25% {transform: scale(0.95);}
+    50% {transform: scale(0.9);}
+    75% {transform: scale(1.0);}
+    100% {transform: scale(0.9);}
+}
+
+header {
+    background-color: #729b5b;
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.menubottom {
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.rightname {
+    color: white;
+    text-align: left;
+    margin-right: 70px;
+    text-decoration: none;
+    font-family: Sedan SC;   
+    font-size: x-large;
+}
+
+.leftt {
+    text-align: right;
+    justify-content: right;
+    font-family: Jost;
+}
+
+footer {
+    background-color: #729b5b;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.naamee {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 40px;
+    transition: all 0.5s ease;
+}
+
+.naamee:hover {
+    transform: scale(1.2);
+    background-color: #729b5b;
+    border: #ffffff solid;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.naamee:hover .naameetext{
+    color: #ffffff;
+}
+
+.naamee:hover .fa-fort-awesome{
+    color: #ffffff;
+}
+
+.naameetext {
+    color: #729b5b;
+    padding: 8px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.ucheba_bottom1 {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #729b5b;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    border: #729b5b;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.ucheba_bottom1:hover {
+    transform: scale(1.5);
+    background-color: #729b5b;
+    border: #ffffff solid;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.bighbottom {
+    margin: 20px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #729b5b;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    border: #729b5b;
+    margin: 5px;
+    margin-bottom: 20px;
+    animation: bottombig 2s infinite;
+    font-size: larger;
+}
+
+
+.bighbottom:hover {
+    transform: scale(2.5) rotate(-15deg);
+    background-color: #729b5b;
+    border: #ffffff solid;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+@keyframes bottombig {
+    0% {transform: scale(0.8);}
+    25% {transform: scale(0.9);}
+    50% {transform: scale(0.8);}
+    75% {transform: scale(1.0);}
+    100% {transform: scale(0.8);}
+}
+
+.probel {
+    margin: 50px;
+}
+
+.secret {
+    color: #ffffff7c;
+    margin-top: 150px;
+}
