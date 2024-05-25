@@ -143,6 +143,7 @@ body {
 
 .vnutrihogwartsa {
     margin-top: 50px;
+    width: 50%;
 }
 
 img {
@@ -295,4 +296,25 @@ footer {
 .secret {
     color: #ffffff7c;
     margin-top: 150px;
+}
+
+@media (max-width: 620px) {
+    .qwestions {
+        display: block;
+    }
+    .container {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 520) {
+    .naamee {
+        display: block;
+    }
+}
+
+@media (max-width: 360) {
+    header {
+        display: block;
+    }
 }
